@@ -31,7 +31,7 @@ public class ConfigValueServiceImpl implements ConfigValueService {
     private static final Logger logger = LoggerFactory.getLogger(ConfigValueServiceImpl.class);
     private final MongoTemplate mongoTemplate;
     private final StringRedisTemplate redisTemplate;
-    String prefix = "moh_rsc:business:config:";
+    String prefix = "business:config:";
 
     public ConfigValueServiceImpl(
             MongoTemplate mongoTemplate,
